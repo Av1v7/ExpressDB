@@ -1,0 +1,14 @@
+{
+  "name": "@aviv-s/express.db",
+  "version": "1.0.0",
+  "description": "ExpressDB is a lightweight and flexible database module for Node.js, designed to provide easy data storage and retrieval capabilities. It offers a simple and intuitive API similar to Quick.db, making it effortless to integrate into your projects.",
+  "main": "expressdb.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Av1v",
+  "license": "ISC",
+  "dependencies": {
+    "sqlite3": "^5.1.6"
+  }
+}
