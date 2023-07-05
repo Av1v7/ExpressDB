@@ -21,7 +21,7 @@ npm i @aviv-s/express.db
 ### Usage
 To use ExpressDB in your Node.js application, follow these steps:
 
-1. Require the ExpressDB module: ```const { ExpressDB, ExpressError } = require('expressdb'); ```
+1. Require the ExpressDB module: ```const { ExpressDB, ExpressError } = require('@aviv-s/express.db'); ```
 2. Create an instance of the ExpressDB class: ```const db = new ExpressDB();```
 3. Use the available methods to interact with the database. Here are some examples: 
 ```
