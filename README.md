@@ -72,7 +72,8 @@ try {
 ### Contributing
 Contributions are welcome! If you find any issues or have suggestions for improvement, please open an issue or submit a pull request on the GitHub repository: [https://github.com/Av1v7/ExpressDB/pulls]
 
+### Need Help?
 
-Please note that the actual link to the GitHub repository and the license information should be updated with the appropriate details specific to your project.
-
-I hope this README.md file helps in explaining the package and its usage. Feel free to customize it further according to your project's needs.
+-  **Discord :** Av1v7#2420 || https://discord.gg/Pf2cj9ZNAa.
+-  **Twitter :** https://twitter.com/Av1vF.
+-  **Gmail :** avivshemesh96@gmail.com.
