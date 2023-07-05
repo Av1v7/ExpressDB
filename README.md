@@ -15,7 +15,7 @@ ExpressDB is a simple key-value database module for Node.js applications. It pro
 You can install ExpressDB using npm:
 
 ```shell
-npm install expressdb
+npm i @aviv-s/express.db
 ```
 
 ### Usage
