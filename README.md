@@ -24,36 +24,40 @@ To use ExpressDB in your Node.js application, follow these steps:
 1. Require the ExpressDB module: ```const { ExpressDB, ExpressError } = require('@aviv-s/express.db'); ```
 2. Create an instance of the ExpressDB class: ```const db = new ExpressDB();```
 3. Use the available methods to interact with the database. Here are some examples: 
-```
-// Set a value
-await db.set('name', 'John Doe');
+---
 
-// Get a value
-const value = await db.get('name');
-console.log(`Value: ${value}`);
+# Usage - Methods
 
-// Increment a value
-const incrementedValue = await db.add('counter', 5);
-console.log(`Incremented Value: ${incrementedValue}`);
+## Set
+- `await db.set('name', 'John Doe');`
 
-// Decrement a value
-const decrementedValue = await db.subtract('counter', 2);
-console.log(`Decremented Value: ${decrementedValue}`);
+## Get
+- `const value = await db.get('name');`
+- ```console.log(`Value: ${value}`);```
 
-// Push items to an array
-const updatedList = await db.push('list', 'item1', 'item2');
-console.log(`Updated List Value: ${updatedList}`);
+## Add
+- `const incrementedValue = await db.add('counter', 5);`
+- ```console.log(`Incremented Value: ${incrementedValue}`);```
 
-// Pull items from an array
-const newList = await db.pull('list', 'item1');
-console.log(`Updated List Value: ${newList}`);
+## Subtract
+- `const decrementedValue = await db.subtract('counter', 2);`
+- ```console.log(`Decremented Value: ${decrementedValue}`);```
 
-// Delete a key
-db.delete('name');
+## Push
+- `const updatedList = await db.push('list', 'item1', 'item2');`
+- ```console.log(`Updated List Value: ${updatedList}`);```
 
-// Clear the database
-db.clear();
-```
+## Pull
+- `const newList = await db.pull('list', 'item1');`
+- ```console.log(`Updated List Value: ${newList}`);```
+
+## Delete
+- `db.delete('name');`
+
+## Clear
+- `db.clear();`
+
+---
 4. Make sure to handle errors appropriately. The set, add, subtract, and push methods may throw an ExpressError if there is an issue with the database operation.
 ```
 try {
