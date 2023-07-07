@@ -59,7 +59,7 @@ To use ExpressDB in your Node.js application, follow these steps:
 
 ---
 4. Make sure to handle errors appropriately. The set, add, subtract, and push methods may throw an ExpressError if there is an issue with the database operation.
-```
+```js
 try {
   // Perform database operations
 } catch (error) {
